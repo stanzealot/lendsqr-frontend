@@ -1,0 +1,125 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    
+}
+.logo{
+    position: absolute;
+    width: 173.76px;
+    height: 36px;
+    left: 97px;
+    top: 106px;
+}
+.login-left{
+    width: 51%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-form{
+    width:49%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+  
+    .form-container{
+        margin-top: 13em;
+        display:flex;
+        flex-direction: column;
+        width: 447px;
+        margin-left: 6rem;
+    }
+    .login-h1{
+        left: 836px;
+        top: 215px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 55px;
+        letter-spacing: -0.04em;
+        color: #213F7D;
+        
+    }
+    .login-p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 27px;
+        color: #545F7D;
+        margin-bottom: 3.7rem;
+    }
+    .form-group{
+        // width: 100%;
+        height: 50px;
+        // background-color: red;
+        width: 100%;
+        height: 50px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px 8px;
+        box-sizing: border-box;
+        margin-bottom: 1.5em;
+        border: 2px solid rgba(84, 95, 125, 0.15);
+        border-radius: 5px;
+        h6{
+            
+            font-weight:600;
+            font-size:12px;
+            line-height:16.39px;
+            color:#39CDCC;
+    
+        }
+    .input-email, .input-password{
+        width:100%;
+        border: none;
+        box-sizing: border-box;
+        height: 100%;
+    &:focus{
+        outline: none;
+    }
+        }
+        &.password{
+            position: relative;
+        }
+    
+    
+    }
+    .btn-password{
+        border:none;
+        background: transparent;
+        font-weight: 600;
+        font-size:12px;
+        line-height:16.39px;
+        color: #39CDCC;
+        margin-bottom: 1.87em;
+    }
+    .btn-login{
+        display: block;
+        width: 447px;
+        height: 48px;
+        border:none;
+        background: #39CDCC;
+        border-radius: 8px;
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+    
+}
+
